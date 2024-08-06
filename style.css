@@ -18,11 +18,13 @@ nav{
 .non-bullet {
     list-style: none;
     text-align: right;
+    padding-bottom: 0.5rem;
     }
 
 .inline {
     display: inline;
-    padding: 1rem;
+    padding: 0rem 0.5rem;
+
 }
 
 section {

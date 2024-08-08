@@ -5,30 +5,45 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    
 }
 
 nav{
-   background-color: #FFAB24; 
+   background-color: #FFAB24;
+   max-width: 1150px; 
+   padding: 1rem;
+   border-bottom-left-radius: 15px;
+   display: block;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .brandname {
-    padding: 0.5rem 0.5rem;
+    font-weight: 700;    
 }
 
 .non-bullet {
     list-style: none;
     text-align: right;
-    padding-bottom: 0.5rem;
-    }
+    margin-bottom: 0px;
+}
 
 .inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
     font-weight: 700;
-
 }
 
 section {
-    max-width: 700px;
+    text-align: center;
+    max-width: 800px;
     margin: auto;
 }

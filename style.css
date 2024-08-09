@@ -47,3 +47,10 @@ section {
     max-width: 800px;
     margin: auto;
 }
+
+
+
+ul li {
+    list-style-position: inside;
+    text-align: center;
+}

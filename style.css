@@ -16,9 +16,9 @@ nav{
    max-width: 1150px; 
    padding: 1rem;
    border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
    display: block;
-   
-}
+   }
 
 nav a {
     text-decoration: none;
@@ -29,7 +29,7 @@ nav a {
     font-weight: 700;    
 }
 
-.non-bullet {
+ nav .non-bullet {
     list-style: none;
     text-align: right;
     margin-bottom: 0px;
@@ -53,4 +53,30 @@ section {
 ul li {
     list-style-position: inside;
     text-align: center;
+}
+
+footer {
+    background-color: #FFAB24;
+    max-width: 1150px; 
+    padding: 1rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .non-bullet {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer div {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
 }
